@@ -24,8 +24,10 @@
 \end{abstract}
 
 
-\title{Lab \#2: Percise Measurement of Gravity Using Kater's Pendulum}
-\author{Corbin T. Rochelle (ctr233)}
+\title{Precise Measurement of Gravity Using Kater's Pendulum}
+\author{C. T. Rochelle}
+\email{ctr233@msstate.edu}
+\author{K. J. Grimes}
 \date{\today}
 \affiliation{Department of Physics and Astronomy\\Mississippi State University\\Mississippi State, MS 39762-5167}
 \date{\today}
@@ -41,10 +43,10 @@ When the metal sphere swung from the cord, sometimes the sphere would wobble due
 This reason caused captain Henry Kater to devise and create his own pendulum in 1817\cite{KatersWork}!
 His new pendulum had two major improvements to the old design, being fixed and being compound. 
 % How Does it Work
-Instead of having to swing from a cord, the pendulum was solid metal rod, so none of the energy was lost to anguar momentum. 
+Instead of having to swing from a cord, the pendulum was solid metal rod, so none of the energy was lost to angular momentum. 
 This alone made the measurement much more precise!
-The pendulum was also compound, meaning it has two weights, instead of one, that could offset each other and add more mass to the system to negate air friction and like retardent forces. 
-The two wieghts consisted onf one heavy, fixed one at one end and a small, moveable one at the other. 
+The pendulum was also compound, meaning it has two weights, instead of one, that could offset each other and add more mass to the system to negate air friction and like retardant forces. 
+The two weights consisted one one heavy, fixed one at one end and a small, movable one at the other. 
 This allows the one small weight to be adjusted, either on a macro or micro scale, to influence the center of mass of the pendulum.  
 
 \section{Theory}\label{Theory}
@@ -55,7 +57,7 @@ We know from the lab manual that ``if the period of oscillation of a physical pe
 \end{equation}
 where $g$ is the local gravity, $T_1$ is the upright period measure, $T_2$ is the upside-down period measure, $L$ is the length of the rod, $l_1$ is the length to the adjustable weight from the top knife-edge, and $l_2$ is the length from the adjustable weight to the bottom knife-edge. 
 This is true of all physical pendulums, although it requires the measurement of four different quantities to determine $g$. 
-If we adjust the small, moveable weight to make the periods, $T_1$ and $T_2$, equal each other, we can cancel one of the fractions and drop the number of values we must measure to 3!
+If we adjust the small, movable weight to make the periods, $T_1$ and $T_2$, equal each other, we can cancel one of the fractions and drop the number of values we must measure to 3!
 The periods being equal makes equation \ref{EQ1} become
 \begin{equation}\label{EQ2}
 \frac{8\pi^2}{g}=\frac{2T^2}{L}+0
@@ -68,12 +70,45 @@ g=\frac{4\pi^2L}{T^2}
 
 \section{Experiment}
 % What did you do?
+\begin{figure}
+\includegraphics[width=230px]{diagram.eps}
+\caption{This figure is a schematic of the Kater's Pendulum device. Three important notes are the two masses at each end (the B side mass is movable), the two knife edges at end end, and the distance between the knife edges being a known $100.06$cm.}
+\label{pendulum}
+\end{figure}
+
+At the heart of the Kater's Pendulum experiment is the Kater's pendulum device, seen in Figure \ref{pendulum}. 
+This device is a metal bar that has two knife edges 100.06cm apart pointing toward center and two moveable masses positioned passed the knife edges on each end. 
+This is placed on a metal hook protruding from the wall that it is allowed to pivot on. 
+The bigger mass on end A of the pendulum was placed 15.0(1)cm from the top knife edge, where it remained for the duration of the experiment. 
+The smaller mass on end B of the pendulum was initially placed at 53.0(1)cm from end A's knife edge, the reference point for the initial round of data collection. 
+Even though the knife edge on end A came to a sharp point, some lubricant was required at the pivot location to reduce energy lost to friction. 
+At the B end of the pendulum there was a toothpick protruding from the middle of the metal rod to allow for more precise data collection of the period in the photogate. 
+
+The entire apparatus described so far was hanging and pivoting above the photogate sensor which connected to the PASCO Capstone software on a nearby computer to collect data about the time and period of the oscillations. 
+An important note about data collection is that we used the PASCO software to only account for one in every ten periods or oscillation to improve the precision at which the computer was able to take the data.
+This was later factored out of the equation, while still keeping the higher precision, by dividing this value by ten. 
+
+This experiment was divided into two rough parts. 
+This first section was the approximation.
+We first needed to see a rough placement of where the two periods would cross so that we could come back later and take more data around the area of interest.
+The second part is that more precise analysis to determine a more accurate location for the cross.
+
+In the first section we took twenty data sets, ten with end A upwards and ten with end B upwards. 
+Each data set contains ten data points that were taken during the three and a half minute duration of each.
+Each set started with an original oscillation amplitude of 2.0(2)cm.
+Each data series for the pendulum being each orientation started at 53.0(1)cm from end A's knife edge and was increased in distance by 10cm each sequential data set, going all the way to 153(1)cm from end A's knife edge. 
+
+After all the data was collected, data analysis began.
+
+This data was then analyzed in the aforementioned way to produce Figure \ref{1stGraph}.
+
 
 \section{Data Analysis}
 % Explain the Results 
-\begin{figure}\label{1stGraph}
+\begin{figure}
 \includegraphics[width=230px]{FirstMeasurement.png}
 \caption{The Graph of Large Movements in the Small Weight}
+\label{1stGraph}
 \end{figure}
 
 For the first measurement, to obtain the rough estimate of where $T_1=T_2$ was located, we obtained Figure \ref{1stGraph}. 
@@ -83,9 +118,9 @@ For the first measurement, to obtain the rough estimate of where $T_1=T_2$ was l
 
 
 \begin{thebibliography}{9}
-\bibcite{BeforeKater} Britannica, T. Editors of Encyclopaedia. \textit{pendulum} (Encyclopedia Britannica, September 1, 2021). \url{https://www.britannica.com/technology/pendulum}.
+\bibcite{BeforeKater} Britannica, T. Editors of Encyclopedia. \textit{pendulum} (Encyclopedia Britannica, September 1, 2021). \url{https://www.britannica.com/technology/pendulum}.
 \bibcite{KatersWork} H. ~Kater, \textit{An Account of Experiments for determining the Length of the Pendulum Vibrating Seconds}, (The Latitude of London, 1817).
-\bibcite{Manual} J. ~Winger, \textit{Percise Measurement of g Using Kater’s Pendulum}, (Mississippi State University).
+\bibcite{Manual} J. ~Winger, \textit{Precise Measurement of g Using Kater’s Pendulum}, (Mississippi State University).
 \end{thebibliography}
 
 \end{document}

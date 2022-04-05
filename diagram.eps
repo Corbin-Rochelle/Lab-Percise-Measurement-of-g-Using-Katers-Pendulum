@@ -1,0 +1,35 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: kater
+%%BoundingBox: 0 0 430 60
+%%Pages: 0
+%%Orientation: Portrait
+%%EndComments
+
+/setzero {100 50 moveto} def
+/white {1 1 1 setrgbcolor} def
+/black {0 0 0 setrgbcolor} def
+/gray1 {0.9 0.9 0.9 setrgbcolor} def
+/gray2 {0.6 0.6 0.6 setrgbcolor} def
+/gray3 {0.3 0.3 0.3 setrgbcolor} def
+0.25 0.25 scale
+/Times-Roman findfont 40 scalefont setfont
+
+/xpos 20 def
+/ypos 20 def
+/width 26 def /back 0 width sub def
+/length 1500 def
+gray1 setzero 0 width rlineto length 0 rlineto 0 back rlineto closepath fill
+black setzero 0 width rlineto length 0 rlineto 0 back rlineto closepath stroke
+setzero 250 13 rmoveto -6 -6 rlineto 0 12 rlineto closepath fill
+setzero 1250 13 rmoveto 6 -6 rlineto 0 12 rlineto closepath fill
+gray2 250 63 48 0 360 arc fill 1500 63 35 0 360 arc fill
+black 250 63 48 0 360 arc stroke 1500 63 35 0 360 arc stroke
+setzero 250 70 rmoveto 1000 0 rlineto stroke
+setzero 250 70 rmoveto 10 -10 rlineto 0 20 rlineto closepath fill
+setzero 1250 70 rmoveto -10 -10 rlineto 0 20 rlineto closepath fill
+setzero 666 100 rmoveto (100.06 cm) show
+setzero -50 100 rmoveto (A End) show
+setzero 1450 100 rmoveto (B End) show
+
+save
+showpage
