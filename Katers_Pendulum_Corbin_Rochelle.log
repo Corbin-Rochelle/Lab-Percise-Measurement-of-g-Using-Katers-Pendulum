@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.1)  1 MAY 2022 23:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.1)  2 MAY 2022 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -285,53 +285,53 @@ Package pdftex.def Info: diagram-eps-converted-to.pdf  used on input line 68.
 (pdftex.def)             Requested size: 230.86334pt x 32.21315pt.
 [1{C:/Users/19016/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./diagram-
 eps-converted-to.pdf>]
-<FirstMeasurement.png, id=22, 449.607pt x 279.882pt>
+<FirstMeasurement.png, id=22, 490.56pt x 302.001pt>
 File: FirstMeasurement.png Graphic file (type png)
 <use FirstMeasurement.png>
 Package pdftex.def Info: FirstMeasurement.png  used on input line 115.
-(pdftex.def)             Requested size: 230.86334pt x 143.7159pt.
+(pdftex.def)             Requested size: 230.86334pt x 142.12482pt.
  [2 <./FirstMeasurement.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 158.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 153.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 158.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 153.
 
 
 Class revtex4-2 Warning: Deferred float stuck during \clearpage processing.
 
-<SecondMeasurement.png, id=28, 904.47pt x 428.364pt>
+<SecondMeasurement.png, id=28, 649.992pt x 373.833pt>
 File: SecondMeasurement.png Graphic file (type png)
 <use SecondMeasurement.png>
 Package pdftex.def Info: SecondMeasurement.png  used on input line 160.
-(pdftex.def)             Requested size: 230.86334pt x 109.33922pt.
+(pdftex.def)             Requested size: 230.86334pt x 132.77722pt.
+[3 <./SecondMeasurement.png>]
 No file Katers_Pendulum_Corbin_Rochelle.bbl.
-[3 <./SecondMeasurement.png>] [4] (Katers_Pendulum_Corbin_Rochelle.aux) ) 
+[4] (Katers_Pendulum_Corbin_Rochelle.aux) ) 
 Here is how much of TeX's memory you used:
  4837 strings out of 478659
- 69914 string characters out of 2845921
+ 69911 string characters out of 2845921
  399659 words of memory out of 3000000
  22917 multiletter control sequences out of 15000+600000
  407584 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,8n,77p,572b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Us
-ers/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx9.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi9.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/19016/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/19016/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/19016/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/19016/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/190
-16/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/U
-sers/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmti9.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmtt9.pfb>
-Output written on Katers_Pendulum_Corbin_Rochelle.pdf (4 pages, 472042 bytes).
+ 69i,8n,77p,626b,313s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/19016/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/19016/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/19016/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
+:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb><C:/Users/19016/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/19016/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/19016/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/19016/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/19016/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on Katers_Pendulum_Corbin_Rochelle.pdf (4 pages, 389153 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
