@@ -14,7 +14,7 @@
 Kater's pendulum is a device that uses two moveable masses and two knife edges on a metal rod to measure the local value of gravity at any place on each. 
 This is accomplished by moving the two masses around on the rod to produce the same period when the rod is rotating in both orientations, using the knife edges to pivot on a platform. 
 This period value can then be used to calculate the value of gravity.
-From this experiment we found the local value of gravity at Starkville, MS to be INSERT VALUE HERE, which is within $2\sigma$ of the local value, $9.7908(10)m/s^2$.
+From this experiment we found the local value of gravity at Starkville, MS to be $9.7922(16)m/s^2$, which is within $2\sigma$ of the local value, $9.7908(10)m/s^2$.
 \end{abstract}
 
 
@@ -152,17 +152,23 @@ however it was not necessary, so we continued without it.
 Some of the precision was brought back from taking the difference between every other value of the time between ten swings.
 
 The second part of the experiment was analyzed using a linear least squares fit, using the period data and distance from the reference point. 
-Every data set was divided up and a chi-squared minimization was preformed on all of the eighteen of the sets to arrive at the y-coordinate of the linear fits, which are plotted in Figure \ref{INSERT THIS} and shown in Table \ref{2ndTable}.
+Every data set was divided up and a chi-squared minimization was preformed on all of the eighteen of the sets to arrive at the y-coordinate of the linear fits, which are shown in Table \ref{2ndTable}.
 An important point is that the $+2cm$ and $+3cm$ y-intercepts for the End A Upwards data collection were off the trend line by a significant amount.
 This may be the result of faulty analysis or data measurement being off. 
 
-The linear regression was now preformed on the data set and yielded the trend lines shown in Figure \ref{INSERT THIS} and the values shown in Table \ref{INSERT THIS}.
+\begin{figure}
+\includegraphics[width=230px]{SecondMeasurement.png}
+\caption{This figure shows the plot from our section round of data collection in the form of a plot of period [s] versus distance [cm]. The solid red and orange data points show the chi-squared fit's slope values. The dotted lines show the least-squares polynomial fit. The blue points represent the pendulum with End A up, and the orange points represent End B up.}
+\label{2stGraph}
+\end{figure}
+
+The linear regression was now preformed on the data set and yielded the trend lines shown in Figure \ref{2stGraph} and the values shown in Table \ref{2ndTable}.
 From the equations of the trend lines we can find a precise point of intersection.
 If we remember from the theory section, this is the point that the two periods become the same value and can be substituted into Equation \ref{finalE} to solve for the local value of gravity in Starkville, MS. 
 
-Using the period value obtained from the second data analysis, INSERT VALUE HERE, we come to a final value of gravity in Starkville to be INSERT VALUE HERE. 
+Using the period value obtained from the second data analysis, $2.0085(13)s$, we come to a final value of gravity in Starkville to be $9.7922(16)m/s^2$. 
 The accepted value for gravity in Starkville is $9.7908(10)m/s^2$.
-Our value differs from this value by INSERT SIGMA DIFF HERE sigma, meaning our value falls within the acceptable range or $2\sigma$! 
+Our value differs from this value by $0.8812$ sigma, meaning our value falls within the acceptable range or $2\sigma$! 
 
 \begin{figure}
 \begin{tabular}{|c|c|c|}
@@ -175,10 +181,10 @@ Distance [cm] & End A Upwards [s] & End B Upwards [s]\\
 -3&	1.9990&	2.0031\\
 -2&	2.0039&	2.0046\\
 -1&	2.0064&	2.0065\\
-0&	2.0089&	2.0080\\
-1&	2.0131&	2.0101\\
-2&	2.0064&	2.0095\\
-3&	2.0089&	2.0113\\
+0&	2.0064&	2.0080\\
+1&	2.0089&	2.0101\\
+2&	2.0089&	2.0095\\
+3&	2.0131&	2.0113\\
 4&	2.0187&	2.0130\\
 \hline
 \end{tabular}
@@ -193,18 +199,21 @@ From the Kater's Pendulum experiment, the value we obtained fell within the $2\s
 however this could be improved by a lot!
 One of the main catastrophes that happened during this experiment was the loss of one of the time digits in the second round of data collection. 
 This extra digit could dramatically improve the uncertainty related with the our value.
-Another easy fix would be permanently fixing the toothpicks at the end of the device.
+An easy fix would be permanently fixing the toothpicks at the end of the device.
 Sometimes these would be bumped or move throughout the experiment and we would have to reset them in their place.
 This could account for some of the variability in times during our experiment. 
-However we could also use a Gravimeter to easily and more accurately measure the local value of gravity in Starkville.
+One major improvement to our experiment could be varying the amount of time we allowed the pendulum to stabilize between End A and End B being up.
+Looking at Figure \ref{2stGraph}, we see that the values for End B being up had significantly less deviation from the trend line as compared to End A being up. 
+One of the most probable reasons is the time taken for the pendulum to stabilize given the orientation of the movable masses. 
+When End B is upwards, the larger mass travels more distance during each gyration, stabilizing the system faster then when the smaller mass is on the bottom, when End A is upwards. 
+To correct for this, we should have allowed for more stabilization time when End A was upwards to allow the system to stabilize more, giving more precise values of period. 
+As a side note, we could also use a Gravimeter to easily and more accurately measure the local value of gravity in Starkville.
 But where is the fun in that.
 
 \begin{thebibliography}{9}
-\bibcite{BeforeKater} Britannica, T. Editors of Encyclopedia. \textit{pendulum} (Encyclopedia Britannica, September 1, 2021). \url{https://www.britannica.com/technology/pendulum}.
-
-\bibcite{KatersWork} H. ~Kater, \textit{An Account of Experiments for determining the Length of the Pendulum Vibrating Seconds}, (The Latitude of London, 1817).
-
-\bibcite{Manual} J. ~Winger, \textit{Precise Measurement of g Using Kater’s Pendulum}, (Mississippi State University).
+\bibitem{BeforeKater} Britannica, T. Editors of Encyclopedia. \textit{pendulum} (Encyclopedia Britannica, September 1, 2021). \url{https://www.britannica.com/technology/pendulum}.
+\bibitem{KatersWork} H. ~Kater, \textit{An Account of Experiments for determining the Length of the Pendulum Vibrating Seconds}, (The Latitude of London, 1817).
+\bibitem{Manual} J. ~Winger, \textit{Precise Measurement of g Using Kater’s Pendulum}, (Mississippi State University).
 \end{thebibliography}
 
 \end{document}
